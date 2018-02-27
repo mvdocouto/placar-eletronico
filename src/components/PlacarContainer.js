@@ -7,17 +7,18 @@ export default class PlacarContainer extends React.Component {
     render(){
         return (
            <div>
-               <div>
+               <div style={{ float: "left", width: "250px", marginRight: "10px", border: "1px solid #ccc", padding: "5px 5x", textAlign: "center", borderRadius: "5px"}}>
                    <h2>Time da Casa</h2>
                    <Time/>
                </div>
-               <div>
+               <div style={{ float: "left", width: "150px", marginRight: "10px" , padding: "10px 10px", textAlign: "center"}}>
                    <Partida/>
                </div>
-               <div>
+               <div style={{ float: "left", width: "250px", marginRight: "10px", border: "1px solid #ccc", padding: "5px 5px", textAlign: "center", borderRadius: "5px"}}>
                     <h2>Time Visitante</h2>
                     <Time/>
                </div>
+               <div style={{ clear: "both"}}></div>
            </div>
         )
     }
