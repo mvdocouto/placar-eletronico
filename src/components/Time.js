@@ -10,7 +10,7 @@ export default class Contador extends React.Component {
     render(){
         return (
             <div>
-                <h1>Nome do Time</h1>
+                <h1>{this.props.nome}</h1>
                 <h2>0</h2>
                 <BotaoGol />
             </div>
