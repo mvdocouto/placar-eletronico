@@ -11,8 +11,8 @@ export default class Contador extends React.Component {
         return (
             <div>
                 <h1>{this.props.nome}</h1>
-                <h2>0</h2>
-                <BotaoGol />
+                <h2>{this.props.gols}</h2>
+                <BotaoGol  marcarGol={}/>
             </div>
         )
     }
